@@ -1,0 +1,293 @@
+@media screen and (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+    height: auto;
+  }
+
+  .username,
+  .content {
+    font-size: 30px;
+  }
+}
+
+/* //end 992px */
+
+@media screen and (max-width: 991px) {
+  #searchForm {
+    gap: 8px;
+    flex-flow: row;
+    margin: auto;
+  }
+
+  .title {
+    width: 600px;
+    font-size: medium;
+  }
+  .title h2{
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  .wrapper,
+  .container,
+  .bottom {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    /* box-sizing: border-box; */
+    width: auto;
+    padding: 0 30px;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .inpux,
+  .text,
+  .user,
+  .bottom,
+  .checkbox,
+  .btn,
+  .register-link {
+    width: auto;
+  }
+
+  .title {
+    width: 400px;
+    font-size: medium;
+  }
+  .btn {
+    text-align: center;
+  }
+
+  .username,
+  .content {
+    font-size: 10px;
+  }
+
+  .defaultAva {
+    max-width: 70px;
+    max-height: 70px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+
+  .wrapper,
+  .container {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    /* box-sizing: border-box; */
+    width: auto;
+    padding: 0 30px;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .bottom {
+    flex-direction: column;
+  }
+
+  .bottom {
+    margin-right: 0px;
+    margin-bottom: 10px;
+  }
+
+  .wrapper {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: inherit;
+    min-width: inherit;
+    max-width: fit-content;
+  }
+.title {
+    width: 300px;
+    font-size: medium;
+    overflow-wrap: break-word;
+  }
+  .element {
+    width: max-content;
+  }
+
+  .wrapper h1 {
+    color: blueviolet;
+  }
+
+  .title {
+    text-overflow: hidden;
+  }
+
+  .postContainer,
+  #titleContainer {
+    display: flex;
+    orientation: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: calc(100% - 50px);
+    margin-left: auto;
+    margin-right: auto;
+    text-overflow: ellipsis;
+    position: center;
+  }
+
+  .threadListElement {
+    text-overflow: ellipsis;
+  }
+
+  .username {
+    font-size: 10px;
+  }
+
+}
+
+/* //end 480px */
+@media screen and (max-width: 480px) {
+  .bottom {
+    flex-direction: column;
+  }
+
+  .bottom {
+    margin-right: 0px;
+    margin-bottom: 10px;
+  }
+
+  .wrapper,
+  .element {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .inpux,
+  .button {
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .container {
+    background: 100%;
+    max-width: fit-content;
+  }
+
+  .title {
+    text-overflow: hidden;
+    max-width: inherit;
+    position: relative;
+  }
+
+  .singleThread {
+    max-width: inherit;
+  }
+
+  .postContainer,
+  #titleContainer {
+    display: flex;
+    orientation: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: calc(100% - 50px);
+    margin-left: auto;
+    margin-right: auto;
+    text-overflow: ellipsis;
+    position: center;
+    font-size: smaller;
+  }
+
+.title{
+  width: 200px;
+  overflow-wrap: break-word;
+  text-overflow: ellipsis;
+  font-size: xx-small;
+}
+.title h2{
+  font-size: 15px;
+}
+  .postInfo {
+    size: 20%;
+    font-size: small;
+  }
+}
+
+/* //end 400px */
+
+@media screen and (max-width: 320px) {
+
+  .title,
+  .categoryListElementDetailsMobile p,
+  .titleContainer {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    overflow-wrap: break-word;
+  }
+
+  .titleContainer {
+    font-size: small;
+  }
+
+  .container {
+    background: 100%;
+    overflow: hidden;
+  }
+
+  .bottom,
+  .register-link,
+  .checkbox,
+  .check,
+  .login-link,
+  .detail {
+    display: none;
+  }
+
+  .wrapper {
+    flex-direction: column;
+  }
+
+  .inpux {
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .menubar {
+    color: azure;
+  }
+
+  .poster {
+    size: 30%;
+  }
+
+}
+
+@media screen and (max-width: 160px) {
+
+  .ml-auto,
+  .button,
+  .nav,
+  .nav-collapse,
+  .title,
+  .container,
+  .defaultAva,
+  .body {
+    overflow: hidden;
+  }
+
+  .title {
+    display: none;
+  }
+}
